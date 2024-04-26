@@ -15,4 +15,4 @@ review_df = pd.DataFrame({'country':countries,'count':reviews_per_country.reinde
 review_df.fillna(0, inplace=True)
 review_df['count']=review_df['count'].astype(int)
 review_df_sorted = review_df.sort_values(by='count', ascending=False)
-review_df_sorted.to_csv('C:\\Users\\stayp\\github-classroom\\CodeYou-Data-Jan2024\\wine-reviews-exercise-Jesse-Wilson83\\data\\reviews_per_country.csv', index=False, sep=',')
+review_df_sorted.to_csv('C:\\Users\\stayp\\github-classroom\\CodeYou-Data-Jan2024\\wine-reviews-exercise-Jesse-Wilson83\\data\\reviews-per-country.csv', index=False, sep=',')
